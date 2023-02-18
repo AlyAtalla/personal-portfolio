@@ -87,6 +87,12 @@ section{
     letter-spacing: 1px;
     border-radius: 15px;
     margin-bottom: 40px;
+transition: 0.7s ease;
 
+
+}
+.main-btn:hover{
+    background-color:rgb(60, 0, 255);
+    transform: scale(1.1);
 
 }
