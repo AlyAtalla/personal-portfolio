@@ -23,4 +23,17 @@ header{
     text-decoration: none;
     color: darkturquoise;
     text-transform:uppercase;
+    font-weight: 800;
+    font-size: 1.9em;
+}
+.navigation a{
+    color: darkturquoise;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: crimson;
+    
 }
