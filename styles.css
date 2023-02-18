@@ -37,3 +37,56 @@ header{
     color: crimson;
     
 }
+section{
+    padding:100px 200px;
+
+}
+.main{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    align-items:left center;
+    background: url(images/bk2.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    background-position: top;
+    background-attachment: fixed;
+
+
+}
+.main h2{
+    color: antiquewhite;
+    font-size: 1.0em;
+    font-weight: 500;
+
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: aqua;
+    font-size: 3em;
+    font-weight: 600;
+}
+.main h3{
+    color: antiquewhite;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn{
+    color: rgb(195, 123, 28);
+    background-color: aqua ;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+
+
+}
