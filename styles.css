@@ -124,12 +124,13 @@ transition: 0.7s ease;
 
 }
 .card{
+  display: inline-block;
     background-color: antiquewhite;
-    width: 21.25em;
+    width: 30%;
     box-shadow: 0 5px 25px rgba(1 1 1/15%);
     border-radius: 10px;
-    padding:25px ;
-    margin: 15px;
+    padding:15px ;
+    margin: 10px;
 
 }
 .card:hover{
@@ -155,3 +156,63 @@ transition: 0.7s ease;
 
 
   }
+  .Projects{
+    background-color: brown;
+
+  }
+  .projects .content{
+    margin-top: 30px;
+
+  }
+  .project-card{
+    background-color: antiquewhite;
+    border:5px solid antiquewhite;
+    min-height: 14em;
+    width:23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+  }
+  .project-card:hover{
+    transform: scale(1.1);
+  }
+  .project-card:hover .project-image{
+    opacity: 0.9;
+    ;
+  }
+  .project-image img{
+    width: 100%;
+
+  }
+  .project-info{
+
+    padding: 1em;
+
+  }
+  .project-category{
+    font-size: 0.8em;
+    color: black;
+
+  }
+  .project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase; 
+    font-weight: 800;
+    margin-top: 10px;
+
+ }
+ .more-details{
+    text-decoration: none;
+    color: aqua;
+
+ }
+ .more-dtails:hover{
+    color: aqua;
+    
+ }
+ .more-details:hover{
+  color: aqua;
+ }
+  
