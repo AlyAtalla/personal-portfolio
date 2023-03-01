@@ -19,6 +19,7 @@ header{
 
 
 }
+
 .logo{
     text-decoration: none;
     color: darkturquoise;
@@ -46,7 +47,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items:left center;
-    background: url(images/bk2.jpeg) no-repeat;
+    background: url(images/background.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 
