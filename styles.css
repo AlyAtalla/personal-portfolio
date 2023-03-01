@@ -47,15 +47,19 @@ section{
     min-height: 100vh;
     display: flex;
     align-items:left center;
-    background: url(images/background.jpg) no-repeat;
+    background: url(https://alyatallawebsite.s3.us-west-2.amazonaws.com/background.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 
     background-position: top;
     background-attachment: fixed;
+    
+      max-width: 100%;
+      height: auto;
+    }
+    
 
 
-}
 .main h2{
     color: antiquewhite;
     font-size: 1.0em;
@@ -263,6 +267,7 @@ transition: 0.7s ease;
     .card {
       width: 46%;
       margin: 2%;
+      
     }
   }
   
